@@ -1,3 +1,4 @@
+function hi() {console.log("hi")};
 function parseExpression(program) {
   program = skipSpace(program);
   let match, expr;
